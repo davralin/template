@@ -27,9 +27,10 @@
       automergeType: 'pr',
     },
     {
-      description: 'Major updates require review',
+      description: 'Major updates',
       matchUpdateTypes: ['major'],
-      automerge: false,
+      automerge: true,
+      automergeType: 'pr',
     },
     {
       description: 'Container major updates',
